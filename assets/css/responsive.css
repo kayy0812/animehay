@@ -1,0 +1,50 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* PC & Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #slider {
+        display: none;
+    }
+
+    .section-body .film-item {
+        width: calc(96% / 4);
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    #search .form-search {
+         width: 100%;
+    }
+
+    #slider {
+        display: none;
+    }
+
+    .section-body .film-item {
+        width: calc(96% / 3);
+    }
+}
+
+@media (max-width: 479px) {
+    #slider {
+        display: none;
+    }
+
+    .section-body .film-item {
+        width: calc(96% / 2);
+    }
+}
+
+@media (max-width: 325px) {
+    #slider {
+        display: none;
+    }
+
+    .section-body .film-item {
+        width: calc(96% / 1);
+    }
+}

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>AnimeHay</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="header-title">
+                <a href="">ANIME<span>HAY</span></a>
+            </div>
+            <div id="nav-btn">
+                <a href="#menu">Danh mục<i class="nav-btn-icon fa fa-lg fa-list"></i></a>
+            </div>
+
+            <ul id="nav-dropdown-menu">
+                <li><a href="#anime">Anime<i class="menu-icon fa fa-angle-down"></i></a></li>
+                <ul class="sub-dropdown" style="display: none">
+                    <li><a href="#hanh-dong" title="Hành động">Hành động</a></li>
+                    <li><a href="#tinh-cam" title="Tình Cảm">Tình Cảm</a></li>
+                    <li><a href="#lich-su" title="Lịch sử">Lịch sử</a></li>
+                    <li><a href="#hai-huoc" title="Hài Hước">Hài Hước</a></li>
+                    <li><a href="#vien-tuong" title="Viễn Tưởng">Viễn Tưởng</a></li>
+                    <li><a href="#vo-thuat" title="Võ Thuật">Võ Thuật</a></li>
+                    <li><a href="#gia-tuong" title="Giả tưởng">Giả tưởng</a></li>
+                    <li><a href="#kinh-di" title="Kinh Dị">Kinh Dị</a></li>
+                    <li><a href="#phieu-luu" title="Phiêu Lưu">Phiêu Lưu</a></li>
+                    <li><a href="#hoc-duong" title="Học Đường">Học Đường</a></li>
+                    <li><a href="#doi-thuong" title="Đời Thường">Đời Thường</a></li>
+                    <li><a href="#sieu-nhien" title="Siêu nhiên">Siêu nhiên</a></li>
+                    <li><a href="#harem" title="Harem">Harem</a></li>
+                    <li><a href="#ecchi" title="Ecchi">Ecchi</a></li>
+                    <li><a href="#shounen" title="Shounen">Shounen</a></li>
+                    <li><a href="#phep-thuat" title="Phép Thuật">Phép Thuật</a></li>
+                    <li><a href="#tro-choi" title="Trò chơi">Trò chơi</a></li>
+                    <li><a href="#tham-tu" title="Thám Tử">Thám Tử</a></li>
+                    <li><a href="#mystery" title="Mystery">Mystery</a></li>
+                    <li><a href="#drama" title="Drama">Drama</a></li>
+                    <li><a href="#seinen" title="Seinen">Seinen</a></li>
+                    <li><a href="#ac-quy" title="Ác quỷ">Ác quỷ</a></li>
+                    <li><a href="#ma-ca-rong" title="Ma cà rồng">Ma cà rồng</a></li>
+                    <li><a href="#psychological" title="Psychological">Psychological</a></li>
+                    <li><a href="#shoujo" title="Shoujo">Shoujo</a></li>
+                    <li><a href="#shounen-ai" title="Shounen Ai">Shounen Ai</a></li>
+                    <li><a href="#tragedy" title="Tragedy">Tragedy</a></li>
+                    <li><a href="#mecha" title="Mecha">Mecha</a></li>
+                    <li><a href="#sieu-nang-luc" title="Siêu năng lực">Siêu năng lực</a></li>
+                    <li><a href="#parody" title="Parody">Parody</a></li>
+                    <li><a href="#quan-doi" title="Quân đội">Quân đội</a></li>
+                    <li><a href="#live-action" title="Live Action">Live Action</a></li>
+                    <li><a href="#shoujo-ai" title="Shoujo AI">Shoujo AI</a></li>
+                    <li><a href="#josei" title="Josei">Josei</a></li>
+                    <li><a href="#the-thao" title="Thể Thao">Thể Thao</a></li>
+                    <li><a href="#am-nhac" title="Âm nhạc">Âm nhạc</a></li>
+                    <li><a href="#samurai" title="Samurai">Samurai</a></li>
+                    <li><a href="#tokusatsu" title="Tokusatsu">Tokusatsu</a></li>
+                    <li><a href="#space" title="Space">Space</a></li>
+                    <li><a href="#thriller" title="Thriller">Thriller</a></li>
+                </ul>
+                <li><a href="#hoat-hinh">CN Animation<i class="menu-icon fa fa-angle-down"></i></a></li>
+                <ul class="sub-dropdown" style="display: none">
+                    <li><a href="#tien-hiep" title="Tiên Hiệp">Tiên Hiệp</a></li>
+                    <li><a href="#kiem-hiep" title="Kiếm Hiệp">Kiếm Hiệp</a></li>
+                    <li><a href="#xuyen-khong" title="Xuyên Không">Xuyên Không</a></li>
+                    <li><a href="#trung-sinh" title="Trùng Sinh">Trùng Sinh</a></li>
+                    <li><a href="#huyen-ao" title="Huyền Ảo">Huyền Ảo</a></li>
+                    <li><a href="#ngon-tinh" title="Ngôn Tình">Ngôn Tình</a></li>
+                    <li><a href="#di-gioi" title="Dị Giới">Dị Giới</a></li>
+                    <li><a href="#khoa-huyen" title="Khoa Huyễn">Khoa Huyễn</a></li>
+                    <li><a href="#hai-huoc-cn" title="Hài Hước[CN]">Hài Hước[CN]</a></li>
+                    <li><a href="#huyen-huyen" title="Huyền Huyễn">Huyền Huyễn</a></li>
+                    <li><a href="#dam-my" title="Đam Mỹ">Đam Mỹ</a></li>
+                    <li><a href="#vo-hiep" title="Võ Hiệp">Võ Hiệp</a></li>
+                </ul>
+                <li><a href="#hoat-hinh">Hoạt hình<i class="menu-icon fa fa-angle-down"></i></a></li>
+                <ul class="sub-dropdown" style="display: none">
+                    <li><a href="#my" title="Mỹ">Mỹ</a></li>
+                    <li><a href="#han-quoc" title="Hàn Quốc">Hàn Quốc</a></li>
+                    <li><a href="#malaysia" title="Malaysia">Malaysia</a></li>
+                    <li><a href="#anh" title="Anh">Anh</a></li>
+                    <li><a href="#phap" title="Pháp">Pháp</a></li>
+                    <li><a href="#dai-loan" title="Đài loan">Đài loan</a></li>
+                    <li><a href="#khac" title="Khác">Khác</a></li>
+                </ul>
+                <li><a href="#">Năm phát hành<i class="menu-icon fa fa-angle-down"></i></a></li>
+                <ul class="sub-dropdown" style="display: none">
+                    <li><a href="#2021" title="Phim phát hành năm 2021">2021</a></li>
+                    <li><a href="#2020" title="Phim phát hành ăm 2020">2020</a></li>
+                    <li><a href="#2019" title="Phim phát hành năm 2019">2019</a></li>
+                    <li><a href="#2018" title="Phim phát hành năm 2018">2018</a></li>
+                    <li><a href="#2017" title="Phim phát hành năm 2017">2017</a></li>
+                    <li><a href="#2016" title="Phim phát hành năm 2016">2016</a></li>
+                    <li><a href="#2015" title="Phim phát hành năm 2015">2015</a></li>
+                    <li><a href="#2014" title="Phim phát hành năm 2014">2014</a></li>
+                    <li><a href="#2013" title="Phim phát hành năm 2013">2013</a></li>
+                    <li><a href="#-2013" title="Phim phát hành trước năm 2013">Trước 2013</a></li>
+                </ul>
+                <li><a href="#phim-bo">Phim bộ</a></li>
+                <li><a href="#phim-le">Phim lẻ</a></li>
+            </ul>
+        </div>
+
+        <div id="tools">
+            <div id="search">
+                <form class="form-search" action="/" method="get">
+                    <input type="text" placeholder="Nhập và Enter" name="query" id="search-input" autocomplete="off" required>
+                    <button type="submit"><i class="search-icon-btn fa fa-2x fa-search"></i></button>
+                </form>
+            </div>
+
+            <!-- <div id="account"></div> -->
+            <a id="login-btn" href="#login">Đăng nhập</a>
+        </div>
+    
+        <div id="slider">
+            <div class="slider-scroll">
+                <div class="sliders-list">
+                    <a href="#" class="slider-item">
+                        <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/dau-la-dai-luc-cover.png" alt="">
+                        <span class="item-episode">Tập 159</span>
+                        <div class="item-body">
+                            <span class="item-scores">9.3</span>
+                            <h3 class="item-name">Đấu la đại lục</h3>
+                            <p class="item-year">2018</p>
+                        </div>
+                    </a>
+                    <a href="#" class="slider-item">
+                        <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/the-gioi-hoan-my-cover.gif" alt="">
+                        <span class="item-episode">Tập 9</span>
+                        <div class="item-body">
+                            <span class="item-scores">9.3</span>
+                            <h3 class="item-name">Thế giới hoàn mỹ</h3>
+                            <p class="item-year">2021</p>
+                        </div>
+                    </a>
+                    <a href="#" class="slider-item">
+                        <img class="item-img" src="https://animehay.tv/uploads/images/2018/07/tay-du-ky-cover.jpg" alt="">
+                        <span class="item-episode">Tập 42</span>
+                        <div class="item-body">
+                            <span class="item-scores">7.7</span>
+                            <h3 class="item-name">Tây hành kỷ</h3>
+                            <p class="item-year">2018</p>
+                        </div>
+                    </a>
+                    <a href="#" class="slider-item">
+                        <img class="item-img" src="https://animehay.tv/uploads/images/2021/06/nhat-niem-vinh-hang-cover.jpg" alt="">
+                        <span class="item-episode">Tập 45</span>
+                        <div class="item-body">
+                            <span class="item-scores">9.2</span>
+                            <h3 class="item-name">Nhất niệm vĩnh hằng</h3>
+                            <p class="item-year">2020</p>
+                        </div>
+                    </a>
+                    <a href="#" class="slider-item">
+                        <img class="item-img" src="https://animehay.tv/uploads/images/2020/12/boruto-naruto-next-generations-cover.jpg" alt="">
+                        <span class="item-episode">Tập 201</span>
+                        <div class="item-body">
+                            <span class="item-scores">7.9</span>
+                            <h3 class="item-name">BORUTO: The next generations</h3>
+                            <p class="item-year">2017</p>
+                        </div>
+                    </a>
+                    <a href="#" class="slider-item">
+                        <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/dau-la-dai-luc-cover.png" alt="">
+                        <span class="item-episode">Tập 159</span>
+                        <div class="item-body">
+                            <span class="item-scores">9.3</span>
+                            <h3 class="item-name">Đấu la đại lục</h3>
+                            <p class="item-year">2018</p>
+                        </div>
+                    </a>
+                    <a href="#" class="slider-item">
+                        <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/the-gioi-hoan-my-cover.gif" alt="">
+                        <span class="item-episode">Tập 9</span>
+                        <div class="item-body">
+                            <span class="item-scores">9.3</span>
+                            <h3 class="item-name">Thế giới hoàn mỹ</h3>
+                            <p class="item-year">2021</p>
+                        </div>
+                    </a>
+                    <a href="#" class="slider-item">
+                        <img class="item-img" src="https://animehay.tv/uploads/images/2018/07/tay-du-ky-cover.jpg" alt="">
+                        <span class="item-episode">Tập 42</span>
+                        <div class="item-body">
+                            <span class="item-scores">7.7</span>
+                            <h3 class="item-name">Tây hành kỷ</h3>
+                            <p class="item-year">2018</p>
+                        </div>
+                    </a>
+                    <a href="#" class="slider-item">
+                        <img class="item-img" src="https://animehay.tv/uploads/images/2021/06/nhat-niem-vinh-hang-cover.jpg" alt="">
+                        <span class="item-episode">Tập 45</span>
+                        <div class="item-body">
+                            <span class="item-scores">9.2</span>
+                            <h3 class="item-name">Nhất niệm vĩnh hằng</h3>
+                            <p class="item-year">2020</p>
+                        </div>
+                    </a>
+                    <a href="#" class="slider-item">
+                        <img class="item-img" src="https://animehay.tv/uploads/images/2020/12/boruto-naruto-next-generations-cover.jpg" alt="">
+                        <span class="item-episode">Tập 201</span>
+                        <div class="item-body">
+                            <span class="item-scores">7.9</span>
+                            <h3 class="item-name">BORUTO: The next generations</h3>
+                            <p class="item-year">2017</p>
+                        </div>
+                    </a>
+                    <a href="#" class="slider-item">
+                        <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/dau-la-dai-luc-cover.png" alt="">
+                        <span class="item-episode">Tập 159</span>
+                        <div class="item-body">
+                            <span class="item-scores">9.3</span>
+                            <h3 class="item-name">Đấu la đại lục</h3>
+                            <p class="item-year">2018</p>
+                        </div>
+                    </a>
+                    <a href="#" class="slider-item">
+                        <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/the-gioi-hoan-my-cover.gif" alt="">
+                        <span class="item-episode">Tập 9</span>
+                        <div class="item-body">
+                            <span class="item-scores">9.3</span>
+                            <h3 class="item-name">Thế giới hoàn mỹ</h3>
+                            <p class="item-year">2021</p>
+                        </div>
+                    </a>
+                    <a href="#" class="slider-item">
+                        <img class="item-img" src="https://animehay.tv/uploads/images/2018/07/tay-du-ky-cover.jpg" alt="">
+                        <span class="item-episode">Tập 42</span>
+                        <div class="item-body">
+                            <span class="item-scores">7.7</span>
+                            <h3 class="item-name">Tây hành kỷ</h3>
+                            <p class="item-year">2018</p>
+                        </div>
+                    </a>
+                    <a href="#" class="slider-item">
+                        <img class="item-img" src="https://animehay.tv/uploads/images/2021/06/nhat-niem-vinh-hang-cover.jpg" alt="">
+                        <span class="item-episode">Tập 45</span>
+                        <div class="item-body">
+                            <span class="item-scores">9.2</span>
+                            <h3 class="item-name">Nhất niệm vĩnh hằng</h3>
+                            <p class="item-year">2020</p>
+                        </div>
+                    </a>
+                    <a href="#" class="slider-item">
+                        <img class="item-img" src="https://animehay.tv/uploads/images/2020/12/boruto-naruto-next-generations-cover.jpg" alt="">
+                        <span class="item-episode">Tập 201</span>
+                        <div class="item-body">
+                            <span class="item-scores">7.9</span>
+                            <h3 class="item-name">BORUTO: The next generations</h3>
+                            <p class="item-year">2017</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+        <div id="content">
+            <div class="section-content">
+                <div class="section-list">
+                    <div class="section-header">
+                        <h2 class="title">
+                            <i class="title-icon fa fa-star-half-o" aria-hidden="true"></i>
+                            Phim mới cập nhật
+                        </h2>
+                        <div class="links">
+                            <a href="#anime">Anime</a> | 
+                            <a href="#cn-animation">CN Animtation</a>
+                        </div>
+                    </div>
+                    <div class="section-body">
+                        <div class="films-list">
+                            <a class="film-item" href="#">
+                                <div class="item-effect">
+                                    <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/fruits-basket-2019-the-final-thumbnail-1617672549.jpg" alt="">
+                                    <h5 class="item-title">Fruits Basket (2019): The Final</h5>
+                                </div>
+                                <span class="item-episode">10/13</span>
+                                <span class="item-scores">9.3</span>
+                            </a>
+                            <a class="film-item" href="#">
+                                <div class="item-effect">
+                                    <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/van-gioi-phap-than-thumbnail-1618197830.png" alt="">
+                                    <h5 class="item-title">Vạn Giới Pháp Thần</h5>
+                                </div>
+                                <span class="item-episode">10/13</span>
+                                <span class="item-scores">9.3</span>
+                            </a>
+                            <a class="film-item" href="#">
+                                <div class="item-effect">
+                                    <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/fruits-basket-2019-the-final-thumbnail-1617672549.jpg" alt="">
+                                    <h5 class="item-title">Fruits Basket (2019): The Final</h5>
+                                </div>
+                                <span class="item-episode">10/13</span>
+                                <span class="item-scores">9.3</span>
+                            </a>
+                            <a class="film-item" href="#">
+                                <div class="item-effect">
+                                    <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/van-gioi-phap-than-thumbnail-1618197830.png" alt="">
+                                    <h5 class="item-title">Vạn Giới Pháp Thần</h5>
+                                </div>
+                                <span class="item-episode">10/13</span>
+                                <span class="item-scores">9.3</span>
+                            </a>
+                            <a class="film-item" href="#">
+                                <div class="item-effect">
+                                    <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/fruits-basket-2019-the-final-thumbnail-1617672549.jpg" alt="">
+                                    <h5 class="item-title">Fruits Basket (2019): The Final</h5>
+                                </div>
+                                <span class="item-episode">10/13</span>
+                                <span class="item-scores">9.3</span>
+                            </a>
+                            <a class="film-item" href="#">
+                                <div class="item-effect">
+                                    <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/van-gioi-phap-than-thumbnail-1618197830.png" alt="">
+                                    <h5 class="item-title">Vạn Giới Pháp Thần</h5>
+                                </div>
+                                <span class="item-episode">10/13</span>
+                                <span class="item-scores">9.3</span>
+                            </a>
+                            <a class="film-item" href="#">
+                                <div class="item-effect">
+                                    <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/fruits-basket-2019-the-final-thumbnail-1617672549.jpg" alt="">
+                                    <h5 class="item-title">Fruits Basket (2019): The Final</h5>
+                                </div>
+                                <span class="item-episode">10/13</span>
+                                <span class="item-scores">9.3</span>
+                            </a>
+                            <a class="film-item" href="#">
+                                <div class="item-effect">
+                                    <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/van-gioi-phap-than-thumbnail-1618197830.png" alt="">
+                                    <h5 class="item-title">Vạn Giới Pháp Thần</h5>
+                                </div>
+                                <span class="item-episode">10/13</span>
+                                <span class="item-scores">9.3</span>
+                            </a>
+                            <a class="film-item" href="#">
+                                <div class="item-effect">
+                                    <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/fruits-basket-2019-the-final-thumbnail-1617672549.jpg" alt="">
+                                    <h5 class="item-title">Fruits Basket (2019): The Final</h5>
+                                </div>
+                                <span class="item-episode">10/13</span>
+                                <span class="item-scores">9.3</span>
+                            </a>
+                            <a class="film-item" href="#">
+                                <div class="item-effect">
+                                    <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/van-gioi-phap-than-thumbnail-1618197830.png" alt="">
+                                    <h5 class="item-title">Vạn Giới Pháp Thần</h5>
+                                </div>
+                                <span class="item-episode">10/13</span>
+                                <span class="item-scores">9.3</span>
+                            </a>
+                            <a class="film-item" href="#">
+                                <div class="item-effect">
+                                    <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/fruits-basket-2019-the-final-thumbnail-1617672549.jpg" alt="">
+                                    <h5 class="item-title">Fruits Basket (2019): The Final</h5>
+                                </div>
+                                <span class="item-episode">10/13</span>
+                                <span class="item-scores">9.3</span>
+                            </a>
+                            <a class="film-item" href="#">
+                                <div class="item-effect">
+                                    <img class="item-img" src="https://animehay.tv/uploads/images/2021/04/van-gioi-phap-than-thumbnail-1618197830.png" alt="">
+                                    <h5 class="item-title">Vạn Giới Pháp Thần</h5>
+                                </div>
+                                <span class="item-episode">10/13</span>
+                                <span class="item-scores">9.3</span>
+                            </a>
+                        </div>
+                        <ul class="pagination">
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div id="footer">
+            <div class="links">
+                <div class="heading">Liên kết phim</div>
+                <ul>
+                    <li><a href="#">One Piece</a></li>
+                    <li><a href="#">Boruto</a></li>
+                    <li><a href="#">Conan</a></li>
+                    <li><a href="#">Naruto</a></li>
+                    <li><a href="#">Pokemon</a></li>
+                    <li><a href="#">Truyện tranh</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <div class="heading">Liên hệ</div>
+                <ul>
+                    <li><a href="#chinh-sach"><i class="fa fa-copyright"></i> Chính sách</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/scripts.js"></script>
+</body>
+</html>
